@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const month = document.getElementById("month");
   const year = document.getElementById("year");
   const labels = document.getElementsByTagName("label");
-  const errors = document.querySelectorAll(".err"); // Corrected class name here
+  const errors = document.querySelectorAll(".err"); 
   const spans = document.querySelectorAll(".value span");
-  const submitButton = document.getElementsByClassName("submit")[0]; // Corrected method and added [0]
+  const submitButton = document.getElementsByClassName("submit")[0]; 
   
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
